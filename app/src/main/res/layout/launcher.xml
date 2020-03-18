@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/hamin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:text="شرکت رها صنعت نوین آرام
+"
+    android:textColor="#ffffff"
+    android:textSize="27dp"
+    android:gravity="center"
+android:id="@+id/textLaunch_1"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="با همکاری"
+        android:textSize="27dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="110dp"
+        android:id="@+id/textLaunch_5"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="محمد اسلامیه"
+        android:textSize="27dp"
+        android:gravity="center"
+        android:layout_margin="100dp"
+        android:id="@+id/textLaunch_2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="پل ارتباطی"
+        android:textSize="27dp"
+        android:gravity="center"
+        android:id="@+id/textLaunch_3"
+        android:layout_below="@+id/textLaunch_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="mohammades6634@yahoo.com"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:id="@+id/textLaunch_4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp" />
+
+
+</RelativeLayout>

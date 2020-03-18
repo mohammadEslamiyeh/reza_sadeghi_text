@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    android.support.v7.widget.AppCompatSeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/seekbar"
+        android:max="255"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="84dp" />
+    android:theme="@android:style/Theme.Material"
+    <CheckBox
+        android:id="@+id/chbR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="130dp"
+        android:gravity="center"
+        android:text="صفحه روشن بماند"
+        />
+
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/seekbar_2"
+        android:max="255"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ذخیره"
+        android:id="@+id/save"
+        android:layout_marginBottom="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تنظیم نور صفحه"
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_above="@+id/seekbar"
+        android:layout_centerHorizontal="true" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="تنطیم سایز متن"
+    android:id="@+id/textView5"
+    android:textSize="20dp"
+    android:layout_above="@+id/seekbar_2"
+    android:layout_centerHorizontal="true"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="متن نمونه"
+        android:id="@+id/textView6"
+        android:layout_marginBottom="64dp"
+        android:layout_above="@+id/save"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

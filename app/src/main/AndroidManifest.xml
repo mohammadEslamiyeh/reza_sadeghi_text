@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elevenprin.www.rezasadeghinew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="تکست ترانه های رضا صادقی"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity android:name=".SecondActivity"/>
+        <activity android:name=".threeActivity"/>
+        <activity android:name=".Album_1"/>
+        <activity android:name=".Album_2"/>
+        <activity android:name=".Album_2_Show"/>
+        <activity android:name=".Album_3"/>
+        <activity android:name=".Album_3_show"/>
+        <activity android:name=".Album_4"/>
+        <activity android:name=".Album_4_show"/>
+        <activity android:name=".Album_5"/>
+        <activity android:name=".Album_5_show"/>
+        <activity android:name=".Album_6"/>
+        <activity android:name=".Album_6_show"/>
+        <activity android:name=".Album_7"/>
+        <activity android:name=".Album_7_show"/>
+        <activity android:name=".Album_8"/>
+        <activity android:name=".Album_8_show"/>
+        <activity android:name=".Album_9"/>
+        <activity android:name=".Album_9_show"/>
+        <activity android:name=".Album_10"/>
+        <activity android:name=".Album_10_show"/>
+        <activity android:name=".Album_11"/>
+        <activity android:name=".Album_11_show"/>
+        <activity android:name=".Album_12"/>
+        <activity android:name=".Album_12_show"/>
+        <activity android:name=".Album_13"/>
+        <activity android:name=".Album_13_show"/>
+        <activity android:name=".Album_14"/>
+        <activity android:name=".Album_14_show"/>
+        <activity android:name=".Album_15"/>
+        <activity android:name=".Album_15_show"/>
+        <activity android:name=".Album_16"/>
+        <activity android:name=".Album_16_show"/>
+        <activity android:name=".Album_17"/>
+        <activity android:name=".Album_17_show"/>
+        <activity android:name=".Album_18"/>
+        <activity android:name=".Album_18_show"/>
+        <activity android:name=".Album_19"/>
+        <activity android:name=".Album_19_show"/>
+        <activity android:name=".Album_20"/>
+        <activity android:name=".Album_20_show"/>
+        <activity android:name=".Album_21"/>
+        <activity android:name=".Album_21_show"/>
+        <activity android:name=".biogerafi"/>
+        <activity android:name=".favorites_show"/>
+        <activity android:name=".Favorites_sh"/>
+        <activity android:name=".tak_1"/>
+        <activity android:name=".tak_1_show"/>
+        <activity android:name=".setting"/>
+        <activity android:name=".manabe"/>
+        <activity android:name=".launcher">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".Email"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"/>
+        <activity android:name=".About_us"/>
+
+
+
+    </application>
+
+</manifest>

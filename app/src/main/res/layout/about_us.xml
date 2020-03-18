@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.np.rezasadeghi.threeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/show1_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/show1_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:background="@drawable/adamkhobe"
+            app:contentScrim="@color/colorPrimaryDark"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/show2_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.AppBarOverlay"
+                android:elevation="10dp"/>
+
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|start"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp"
+                android:paddingRight="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="20sp"
+                />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.np.rezasadeghi.ScrollingActivity"
+        tools:showIn="@layout/about">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/about_1"
+                android:text="@string/about"
+                android:textIsSelectable="true"
+                android:gravity="center_horizontal|center_vertical"
+
+
+                android:textSize="15sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/show2_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_dialog_email"
+        android:scaleType="center"
+        android:scrollbarStyle="insideInset"
+        app:layout_anchor="@id/show1_app_bar"
+        app:layout_anchorGravity="end|bottom"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/show3_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_call"
+        android:scaleType="center"
+        android:scrollbarStyle="insideInset"
+        app:layout_anchor="@id/show1_app_bar"
+        app:layout_anchorGravity="bottom|start" />
+
+</android.support.design.widget.CoordinatorLayout>

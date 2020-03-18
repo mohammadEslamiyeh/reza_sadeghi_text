@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/biogerafi" android:icon="@drawable/biogerafi" android:title="بیوگرافی"/>
+
+        <item android:id="@+id/settings"   android:icon="@drawable/setting" android:title="تنطیمات"/>
+
+        <item android:id="@+id/favorites" android:icon="@drawable/favourite_icon" android:title="علاقه مندی"/>
+
+        <item android:id="@+id/about" android:icon="@drawable/darbarema" android:title="درباره ما"/>
+        <item android:id="@+id/manabe" android:icon="@drawable/manabe" android:title="منابع"/>
+        <item android:id="@+id/exite" android:icon="@drawable/khoroj" android:title="خروج"  />
+
+
+
+</group>
+</menu>
